@@ -2,13 +2,13 @@
 My portfolio
 HOW TO CLONE
 1.Install and run virtual environment
---pip install virtualenv
---virtualenv 'envname'
---source 'envname'/bin/activate
+  *pip install virtualenv
+  *virtualenv 'envname'
+  *source 'envname'/bin/activate
 2.Install requirements and dependencies
---pip install -r requirements.txt
+  *pip install -r requirements.txt
 3.Run server
---python manage.py runserver
+  *python manage.py runserver
 
 If step3 does not work try:
 --python manage.py makemigrations
