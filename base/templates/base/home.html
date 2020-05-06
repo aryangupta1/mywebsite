@@ -1,0 +1,104 @@
+
+
+    {% load static %}
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Aryan Gupta</title>
+            <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        </head>
+        <body>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card card-body h-100 border-danger" id="profile-wrapper">
+                            <img id="profile-pic" src = "{% static 'images/aryan.jpg' %}">
+                            <hr>
+                            <h4>Hi I'm Aryan!</h4>
+                            <p>I'm a software engineering student at UTS</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-9">
+                        <div class="card card-body h-100 border-danger">
+                        <h4>About me</h4>
+                        <hr>
+                        <p>
+                        My Name is Aryan Gupta and I’m currently studying a Bachelor of Engineering (Honours) 
+                        at the University of Technology Sydney, Majoring in Software alongside a Diploma in Professional Engineering Practice. 
+                        I have had a passion for software engineering for quite a number of years. I have actively pursued my 
+                        passion since I was 14 years old, working on small projects and testing out different development and design tools.   
+                        <p>
+
+
+
+                        <ul class = "social-links">
+                            <li><a href ="https://www.facebook.com/aryangupta1002001"><img class="social" src="{% static 'images/facebook.png' %}"></a></li>
+                            <li><a href ="https://www.instagram.com/aryan.gupta_01"><img class="social" src="{% static 'images/instagram.png' %}"></a></li>
+                            <li><a href="https://www.linkedin.com/in/aryangupta01/"><img class="social" src="{% static 'images/linkedin.png' %}"></a></li>
+                            <li><a href="https://github.com/aryangupta1/repositories"><img class="social" src="{% static 'images/github-logo.png' %}"></a></li>
+                        </ul>
+                        <h5>Check out some of my projects on GitHub!</h5>
+                    </div>
+                    </div>
+                </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-body h-100 border-info">
+                        <h5>My Experience</h5>
+                        <hr>
+                        <p>
+                        Throughout my university education, various group and independent projects and casual employment I have had 
+                        experience with Fullstack web development using HTML, CSS, JS, Python, Django, Angular and more. I have also had
+                        experience in other languages such as JAVA, R, SQL, C# and BASH 
+                        </p>
+                        <p>I made this website using Python, Django, HTML & CSS !</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card card-body h-100 border-info">
+                        <h5>Employment History</h5>
+                        <hr>
+                        <ul>
+                        <li>Casual analyst at finity consulting ~ FEB 2020 - Present</li>
+                        <li>Pharmacy sales assistant at Malouf Manly Pharamcy ~ AUG 2019 - Present</li>
+                        <li>Tutor at Alchemy Tuition ~ MAR 2019 - Present</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-body h-100 border-info">                        
+                        <h5>Outside of coding</h5>
+                        <hr>
+                        <p>
+                        Believe it or not theres more to my life than just coding :) I am a die hard Liverpool FC fan and football fanatic.
+                        I am a gym enthusiast (although I don't look like one) and I am obsessed with the Office ! 
+                        </p></div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card card-body h-100 border-info">
+                        <h5>My goals for the future</h5>
+                        <hr>
+                        <p>I want to complete my software engineering degree and further pursue a masters degree in Engineering and Business Administration
+                        </p>
+                        <p>
+                        I aspire to become a fullstack software developer one day and 
+                        to be able to use my technical skills to work on projects for a sustainable future.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br> 
+        </div>               
+        </body>
+    </html>
